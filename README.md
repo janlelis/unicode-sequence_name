@@ -13,7 +13,6 @@ Supported Rubies: **2.4**, **2.3**, **2.2**, **2.1**
 ```ruby
 require "unicode/sequence_name"
 
-# Name
 Unicode::SequenceName.of "‼︎" # => "DOUBLE EXCLAMATION MARK (text style)"
 Unicode::SequenceName.of "㓟︀" # => "CJK COMPATIBILITY IDEOGRAPH-2F81F"
 Unicode::SequenceName.of "င︀" # => "MYANMAR LETTER NGA (dotted form)"
