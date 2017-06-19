@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.1.0
+
+* Unicode 10
+
 ### 1.0.1
 
 * Make sure all emoji variation sequences are included
