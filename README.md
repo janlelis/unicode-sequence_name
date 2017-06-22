@@ -23,7 +23,7 @@ Unicode::SequenceName.of "🏴󠁧󠁢󠁳󠁣󠁴󠁿" # => "SCOTLAND"
 
 ## Also See
 
-- [uniscribe](https://github.com/janlelis/unicode-x) - cli utility that makes use of unicode-sequence-name
+- [uniscribe](https://github.com/janlelis/uniscribe) - cli utility that makes use of unicode-sequence-name
 - [unicode-name](https://github.com/janlelis/unicode-name) - single codepoint names
 - [unicode-x](https://github.com/janlelis/unicode-x) - more Unicode related micro libraries
 
