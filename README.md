@@ -6,7 +6,9 @@ Unicode version: **10.0.0**
 
 Emoji version: **5.0**
 
-Supported Rubies: **2.4**, **2.3**, **2.2**, **2.1**
+Supported Rubies: **2.5**, **2.4**, **2.3**, **2.2**
+
+Old Rubies but might still work: **2.1**, **2.0**
 
 ## Usage
 
