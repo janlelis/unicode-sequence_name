@@ -6,9 +6,9 @@ Unicode version: **10.0.0**
 
 Emoji version: **5.0**
 
-Supported Rubies: **2.5**, **2.4**, **2.3**, **2.2**
+Supported Rubies: **2.5**, **2.4**, **2.3**
 
-Old Rubies but might still work: **2.1**, **2.0**
+Old Rubies but might still work: **2.2**, **2.1**, **2.0**
 
 ## Usage
 
@@ -31,5 +31,5 @@ Unicode::SequenceName.of "🏴󠁧󠁢󠁳󠁣󠁴󠁿" # => "SCOTLAND"
 
 ## MIT License
 
-- Copyright (C) 2017 Jan Lelis <http://janlelis.com>. Released under the MIT license.
+- Copyright (C) 2017-2018 Jan Lelis <http://janlelis.com>. Released under the MIT license.
 - Unicode data: http://www.unicode.org/copyright.html#Exhibit1
