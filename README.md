@@ -2,9 +2,7 @@
 
 Returns name of a Unicode codepoint sequence, if one exists.
 
-Unicode version: **10.0.0**
-
-Emoji version: **5.0**
+Unicode / Emoji version: **11.0**
 
 Supported Rubies: **2.5**, **2.4**, **2.3**
 
@@ -25,7 +23,7 @@ Unicode::SequenceName.of "🏴󠁧󠁢󠁳󠁣󠁴󠁿" # => "SCOTLAND"
 
 ## Also See
 
-- [uniscribe](https://github.com/janlelis/uniscribe) - cli utility that makes use of unicode-sequence-name
+- [uniscribe](https://github.com/janlelis/uniscribe) - cli utility that makes use of unicode_sequence-name
 - [unicode-name](https://github.com/janlelis/unicode-name) - single codepoint names
 - [unicode-x](https://github.com/janlelis/unicode-x) - more Unicode related micro libraries
 
