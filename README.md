@@ -17,7 +17,7 @@ Unicode::SequenceName.of "‼︎" # => "DOUBLE EXCLAMATION MARK (text style)"
 Unicode::SequenceName.of "㓟︀" # => "CJK COMPATIBILITY IDEOGRAPH-2F81F"
 Unicode::SequenceName.of "င︀" # => "MYANMAR LETTER NGA (dotted form)"
 Unicode::SequenceName.of "நி" # => "TAMIL SYLLABLE NI"
-Unicode::SequenceName.of "🇺🇳" # => "UNITED NATIONS"
+Unicode::SequenceName.of "🇺🇳" # => "Flag: UNITED NATIONS"
 Unicode::SequenceName.of "🏴󠁧󠁢󠁳󠁣󠁴󠁿" # => "SCOTLAND"
 ```
 
