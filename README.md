@@ -29,5 +29,5 @@ Unicode::SequenceName.of "🏴󠁧󠁢󠁳󠁣󠁴󠁿" # => "SCOTLAND"
 
 ## MIT License
 
-- Copyright (C) 2017-2018 Jan Lelis <http://janlelis.com>. Released under the MIT license.
+- Copyright (C) 2017-2019 Jan Lelis <http://janlelis.com>. Released under the MIT license.
 - Unicode data: http://www.unicode.org/copyright.html#Exhibit1
