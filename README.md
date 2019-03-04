@@ -1,8 +1,8 @@
-# Unicode::SequenceName [![[version]](https://badge.fury.io/rb/unicode-sequence_name.svg)](http://badge.fury.io/rb/unicode-sequence_name)  [![[travis]](https://travis-ci.org/janlelis/unicode-sequence_name.png)](https://travis-ci.org/janlelis/unicode-sequence_name)
+# Unicode::SequenceName [![[version]](https://badge.fury.io/rb/unicode-sequence_name.svg)](https://badge.fury.io/rb/unicode-sequence_name)  [![[travis]](https://travis-ci.org/janlelis/unicode-sequence_name.png)](https://travis-ci.org/janlelis/unicode-sequence_name)
 
-Returns name of a Unicode codepoint sequence, if one exists.
+Returns the name of a Unicode codepoint sequence, if one exists.
 
-Unicode / Emoji version: **12.0**
+Unicode / Emoji version: **12.0** (March / February 2019)
 
 Supported Rubies: **2.6**, **2.5**, **2.4**
 
