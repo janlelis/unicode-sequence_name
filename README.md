@@ -2,7 +2,7 @@
 
 Returns the name of a Unicode codepoint sequence, if one exists.
 
-Unicode / Emoji version: **12.0** (March / February 2019)
+Unicode / Emoji version: **12.1** / **12.0** (May / February 2019)
 
 Supported Rubies: **2.6**, **2.5**, **2.4**
 

@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.4.0
+
+* Unicode 12.1
+
 ### 1.3.0
 
 * Unicode 12 / Emoji 12
