@@ -2,7 +2,7 @@
 
 module Unicode
   module SequenceName
-    VERSION = "1.3.0"
+    VERSION = "1.4.0"
     UNICODE_VERSION = "12.1.0"
     EMOJI_VERSION = "12.0"
     DATA_DIRECTORY = File.expand_path(File.dirname(__FILE__) + "/../../../data/").freeze

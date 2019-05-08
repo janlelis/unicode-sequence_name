@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.name          = "unicode-sequence_name"
   gem.version       = Unicode::SequenceName::VERSION
   gem.summary       = "Returns name of a Unicode codepoint sequence, if one exists"
-  gem.description   = "[Unicode #{Unicode::SequenceName::UNICODE_VERSION}] Returns name of a Unicode codepoint sequence, if one exists"
+  gem.description   = "[Unicode #{Unicode::SequenceName::UNICODE_VERSION}][Emoji #{Unicode::SequenceName::EMOJI_VERSION}] Returns name of a Unicode codepoint sequence, if one exists"
   gem.authors       = ["Jan Lelis"]
   gem.email         = ["mail@janlelis.de"]
   gem.homepage      = "https://github.com/janlelis/unicode-sequence_name"
