@@ -2,7 +2,7 @@
 
 Returns the name of a Unicode codepoint sequence, if one exists.
 
-Unicode / Emoji version: **12.1** / **12.0** (May / February 2019)
+Unicode / Emoji version: **12.1** / **12.1** (May / October 2019)
 
 Supported Rubies: **2.6**, **2.5**, **2.4**
 
@@ -19,15 +19,17 @@ Unicode::SequenceName.of "င︀" # => "MYANMAR LETTER NGA (dotted form)"
 Unicode::SequenceName.of "நி" # => "TAMIL SYLLABLE NI"
 Unicode::SequenceName.of "🇺🇳" # => "Flag: UNITED NATIONS"
 Unicode::SequenceName.of "🏴󠁧󠁢󠁳󠁣󠁴󠁿" # => "SCOTLAND"
+Unicode::SequenceName.of "🧑‍🦱" # => "PERSON: CURLY HAIR"
 ```
+
+Names for singular codepoints are not included, you can use [unicode-name](https://github.com/janlelis/unicode-name) for that purpose.
 
 ## Also See
 
 - [uniscribe](https://github.com/janlelis/uniscribe) - cli utility that makes use of unicode_sequence-name
-- [unicode-name](https://github.com/janlelis/unicode-name) - single codepoint names
 - [unicode-x](https://github.com/janlelis/unicode-x) - more Unicode related micro libraries
 
 ## MIT License
 
-- Copyright (C) 2017-2019 Jan Lelis <http://janlelis.com>. Released under the MIT license.
-- Unicode data: http://www.unicode.org/copyright.html#Exhibit1
+- Copyright (C) 2017-2019 Jan Lelis <https://janlelis.com>. Released under the MIT license.
+- Unicode data: https://www.unicode.org/copyright.html#Exhibit1
