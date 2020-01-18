@@ -4,7 +4,7 @@ Returns the name of a Unicode codepoint sequence, if one exists.
 
 Unicode / Emoji version: **12.1** / **12.1** (May / October 2019)
 
-Supported Rubies: **2.6**, **2.5**, **2.4**
+Supported Rubies: **2.7**, **2.6**, **2.5**, **2.4**
 
 Old Rubies but might still work: **2.3**, **2.2**, **2.1**, **2.0**
 
