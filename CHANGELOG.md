@@ -1,6 +1,6 @@
 ## CHANGELOG
 
-### 1.6.0 (unreleased)
+### 1.6.0
 
 * Emoji 13.0
 
