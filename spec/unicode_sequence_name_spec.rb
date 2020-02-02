@@ -10,7 +10,8 @@ describe Unicode::SequenceName do
       assert_equal "TAMIL SYLLABLE NI", Unicode::SequenceName.of("நி")
       assert_equal "FLAG: UNITED NATIONS", Unicode::SequenceName.of("🇺🇳")
       assert_equal "FLAG: SCOTLAND", Unicode::SequenceName.of("🏴󠁧󠁢󠁳󠁣󠁴󠁿")
-      assert_equal "PERSON: CURLY HAIR", Unicode::SequenceName.of("🧑‍🦱")
+      assert_equal "PERSON: CURLY HAIR", Unicode::SequenceName.of("🧑‍🦱") # 12.1
+      assert_equal "MAN FEEDING BABY", Unicode::SequenceName.of("👨‍🍼") # 13.0
     end
 
     it "will return nil for characters without name" do
