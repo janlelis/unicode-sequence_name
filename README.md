@@ -2,7 +2,7 @@
 
 Returns the name of a Unicode codepoint sequence, if one exists.
 
-Unicode / Emoji version: **13.0** / **13.0** (March 2020 / January 2020)
+Unicode / Emoji version: **13.0** / **13.1** (March 2020 / September 2020)
 
 Supported Rubies: **2.7**, **2.6**, **2.5**
 
@@ -20,6 +20,8 @@ Unicode::SequenceName.of "நி" # => "TAMIL SYLLABLE NI"
 Unicode::SequenceName.of "🇺🇳" # => "Flag: UNITED NATIONS"
 Unicode::SequenceName.of "🏴󠁧󠁢󠁳󠁣󠁴󠁿" # => "SCOTLAND"
 Unicode::SequenceName.of "🧑‍🦱" # => "PERSON: CURLY HAIR"
+Unicode::SequenceName.of "👨‍🍼" # => MAN FEEDING BABY
+Unicode::SequenceName.of "❤️‍🔥" # => HEART ON FIRE
 ```
 
 Names for singular codepoints are not included, you can use [unicode-name](https://github.com/janlelis/unicode-name) for that purpose.

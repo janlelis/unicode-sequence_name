@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### Next
+
+* Emoji 13.1
+
 ### 1.7.0
 
 - Unicode 13
