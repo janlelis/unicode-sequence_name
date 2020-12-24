@@ -1,6 +1,6 @@
 ## CHANGELOG
 
-### 1.9.0 (unreleased)
+### 1.9.0
 
 * IVD 2020-11-06
 
