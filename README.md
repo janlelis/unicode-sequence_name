@@ -1,4 +1,4 @@
-# Unicode::SequenceName [![[version]](https://badge.fury.io/rb/unicode-sequence_name.svg)](https://badge.fury.io/rb/unicode-sequence_name)  [![[travis]](https://travis-ci.org/janlelis/unicode-sequence_name.png)](https://travis-ci.org/janlelis/unicode-sequence_name)
+# Unicode::SequenceName [![[version]](https://badge.fury.io/rb/unicode-sequence_name.svg)](https://badge.fury.io/rb/unicode-sequence_name)  [![[ci]](https://github.com/janlelis/unicode-sequence_name/workflows/Test/badge.svg)](https://github.com/janlelis/unicode-sequence_name/actions?query=workflow%3ATest)
 
 Returns the name of a Unicode codepoint sequence, if one exists.
 
