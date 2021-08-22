@@ -8,9 +8,9 @@ Emoji version: **13.1** (September 2020)
 
 IVD version: **2020-11-06** (November 2020)
 
-Supported Rubies: **3.0**, **2.7**, **2.6**, **2.5**
+Supported Rubies: **3.0**, **2.7**
 
-Old Rubies which might still work: **2.4**, **2.3**, **2.2**, **2.1**, **2.0**
+Old Rubies which might still work: **2.6**, **2.5**, **2.4**, **2.3**, **2.2**, **2.1**, **2.0**
 
 ## Usage
 
