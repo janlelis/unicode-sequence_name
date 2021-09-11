@@ -2,7 +2,7 @@
 
 Returns the name of a Unicode codepoint sequence, if one exists.
 
-Unicode version: **13.0** (March 2020)
+Unicode version: **14.0.0** (September 2021)
 
 Emoji version: **13.1** (September 2020)
 
