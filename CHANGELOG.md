@@ -1,5 +1,10 @@
 ## CHANGELOG
 
+### 1.10.0 (unreleased)
+
+- Unicode 14.0
+- Emoji 14.0
+
 ### 1.9.0
 
 * IVD 2020-11-06
