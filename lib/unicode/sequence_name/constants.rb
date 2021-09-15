@@ -2,7 +2,7 @@
 
 module Unicode
   module SequenceName
-    VERSION = "1.9.0"
+    VERSION = "1.10.0"
     UNICODE_VERSION = "14.0.0"
     EMOJI_VERSION = "14.0"
     IVD_VERSION = "2020-11-06"
