@@ -14,6 +14,7 @@ describe Unicode::SequenceName do
       assert_equal "MAN FEEDING BABY", Unicode::SequenceName.of("👨‍🍼") # Emoji 13.0
       assert_equal "HEART ON FIRE", Unicode::SequenceName.of("❤️‍🔥") # Emoji 13.1
       assert_equal "HANDSHAKE: LIGHT SKIN TONE, MEDIUM-DARK SKIN TONE", Unicode::SequenceName.of("🫱🏻‍🫲🏾") # Emoji 14.0
+      assert_equal "BLACK BIRD", Unicode::SequenceName.of("🐦‍⬛") # Emoji 15.0
     end
 
     it "will return nil for characters without name" do
