@@ -4,7 +4,7 @@ Returns the name of a Unicode codepoint sequence, if one exists.
 
 Unicode version: **15.0.0** (September 2022)
 
-Emoji version: **14.0** (September 2021)
+Emoji version: **15.0** (September 2022)
 
 IVD version: **2020-11-06** (November 2020)
 
