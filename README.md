@@ -1,6 +1,6 @@
-# Unicode::SequenceName [![[version]](https://badge.fury.io/rb/unicode-sequence_name.svg)](https://badge.fury.io/rb/unicode-sequence_name)  [![[ci]](https://github.com/janlelis/unicode-sequence_name/workflows/Test/badge.svg)](https://github.com/janlelis/unicode-sequence_name/actions?query=workflow%3ATest)
+# Unicode::SequenceName [![[version]](https://badge.fury.io/rb/unicode-sequence_name.svg)](https://badge.fury.io/rb/unicode-sequence_name) [![[ci]](https://github.com/janlelis/unicode-sequence_name/workflows/Test/badge.svg)](https://github.com/janlelis/unicode-sequence_name/actions?query=workflow%3ATest)
 
-Returns the name of a Unicode codepoint sequence, if one exists.
+Returns the name of a Unicode codepoint sequence (= more than one codepoint involved), if one exists.
 
 Unicode version: **15.0.0** (September 2022)
 
@@ -24,8 +24,10 @@ Unicode::SequenceName.of "நி" # => "TAMIL SYLLABLE NI"
 Unicode::SequenceName.of "🇺🇳" # => "Flag: UNITED NATIONS"
 Unicode::SequenceName.of "🏴󠁧󠁢󠁳󠁣󠁴󠁿" # => "SCOTLAND"
 Unicode::SequenceName.of "🧑‍🦱" # => "PERSON: CURLY HAIR"
-Unicode::SequenceName.of "👨‍🍼" # => MAN FEEDING BABY
-Unicode::SequenceName.of "❤️‍🔥" # => HEART ON FIRE
+Unicode::SequenceName.of "👨‍🍼" # => "MAN FEEDING BABY"
+Unicode::SequenceName.of "❤️‍🔥" # => "HEART ON FIRE"
+Unicode::SequenceName.of("🫱🏻‍🫲🏾") # => "HANDSHAKE: LIGHT SKIN TONE, MEDIUM-DARK SKIN TONE"
+Unicode::SequenceName.of("🐦‍⬛") # => "BLACK BIRD"
 ```
 
 Names for singular codepoints are not included, you can use [unicode-name](https://github.com/janlelis/unicode-name) for that purpose.
