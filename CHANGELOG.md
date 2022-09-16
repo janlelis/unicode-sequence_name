@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.12.0 (unreleased)
+
+* IVD 2022-09-13
+
 ### 1.11.0
 
 - Unicode 15.0
