@@ -1,6 +1,6 @@
 ## CHANGELOG
 
-### 1.12.0 (unreleased)
+### 1.12.0
 
 * IVD 2022-09-13
 
