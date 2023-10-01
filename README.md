@@ -26,8 +26,9 @@ Unicode::SequenceName.of "🏴󠁧󠁢󠁳󠁣󠁴󠁿" # => "SCOTLAND"
 Unicode::SequenceName.of "🧑‍🦱" # => "PERSON: CURLY HAIR"
 Unicode::SequenceName.of "👨‍🍼" # => "MAN FEEDING BABY"
 Unicode::SequenceName.of "❤️‍🔥" # => "HEART ON FIRE"
-Unicode::SequenceName.of("🫱🏻‍🫲🏾") # => "HANDSHAKE: LIGHT SKIN TONE, MEDIUM-DARK SKIN TONE"
-Unicode::SequenceName.of("🐦‍⬛") # => "BLACK BIRD"
+Unicode::SequenceName.of "🫱🏻‍🫲🏾" # => "HANDSHAKE: LIGHT SKIN TONE, MEDIUM-DARK SKIN TONE"
+Unicode::SequenceName.of "🐦‍⬛" # => "BLACK BIRD"
+Unicode::SequenceName.of "🙂‍↔️" # => "HEAD SHAKING HORIZONTALLY"
 ```
 
 Names for singular codepoints are not included, you can use [unicode-name](https://github.com/janlelis/unicode-name) for that purpose.
