@@ -1,8 +1,9 @@
 ## CHANGELOG
 
-### 1.13.0 (unreleased)
+### 1.13.0
 
 - Unicode 15.1
+- Emoji 15.1
 
 ### 1.12.0
 
