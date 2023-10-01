@@ -39,5 +39,5 @@ Names for singular codepoints are not included, you can use [unicode-name](https
 
 ## MIT License
 
-- Copyright (C) 2017-2022 Jan Lelis <https://janlelis.com>. Released under the MIT license.
+- Copyright (C) 2017-2023 Jan Lelis <https://janlelis.com>. Released under the MIT license.
 - Unicode data: https://www.unicode.org/copyright.html#Exhibit1
