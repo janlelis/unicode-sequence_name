@@ -16,6 +16,7 @@ describe Unicode::SequenceName do
       assert_equal "HANDSHAKE: LIGHT SKIN TONE, MEDIUM-DARK SKIN TONE", Unicode::SequenceName.of("🫱🏻‍🫲🏾") # Emoji 14.0
       assert_equal "BLACK BIRD", Unicode::SequenceName.of("🐦‍⬛") # Emoji 15.0
       assert_equal "HEAD SHAKING HORIZONTALLY", Unicode::SequenceName.of("🙂‍↔️") # Emoji 15.1
+      assert_equal "LEFT SINGLE QUOTATION MARK (right-justified fullwidth form)", Unicode::SequenceName.of("‘︁") # Unicode 16.0
     end
 
     it "will return nil for characters without name" do
