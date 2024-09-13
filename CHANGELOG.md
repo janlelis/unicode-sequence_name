@@ -1,6 +1,6 @@
 ## CHANGELOG
 
-### 1.14.0 (unreleased)
+### 1.14.0
 
 - Unicode 16.0
 - Emoji 16.0
