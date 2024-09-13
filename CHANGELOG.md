@@ -3,6 +3,7 @@
 ### 1.14.0 (unreleased)
 
 - Unicode 16.0
+- Emoji 16.0
 
 ### 1.13.0
 
