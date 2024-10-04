@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.14.1 (unreleased)
+
+- Fix bug that some singleton Emoji would be included in index
+
 ### 1.14.0
 
 - Unicode 16.0

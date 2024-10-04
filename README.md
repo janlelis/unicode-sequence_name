@@ -32,12 +32,17 @@ Unicode::SequenceName.of "🙂‍↔️" # => "HEAD SHAKING HORIZONTALLY"
 Unicode::SequenceName.of "‘︁" # => "LEFT SINGLE QUOTATION MARK (right-justified fullwidth form)"
 ```
 
-Names for singular codepoints are not included, you can use [unicode-name](https://github.com/janlelis/unicode-name) for that purpose.
+Names for singular codepoints are not included, you can use [unicode-name](https://github.com/janlelis/unicode-name) for that purpose. This is how you could use both libraries together to get the most relevant name of a character:
+
+```ruby
+name = Unicode::Name.sequence_name(char) || Unicode::Name.readable(char)
+```
 
 ## Also See
 
 - [uniscribe](https://github.com/janlelis/uniscribe) - cli utility that makes use of unicode_sequence-name
 - [unicode-x](https://github.com/janlelis/unicode-x) - more Unicode related micro libraries
+- [unicode-name.js](https://github.com/janlelis/unicode-name.js) - JavaScript implementation of name and sequence_name
 
 ## MIT License
 

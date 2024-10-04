@@ -23,6 +23,10 @@ describe Unicode::SequenceName do
       assert_nil Unicode::SequenceName.of("\u{10c50}")
       assert_nil Unicode::SequenceName.of("bla")
     end
+
+    it "will return nil for single codepoints" do
+      assert_nil Unicode::SequenceName.of("⏳")
+    end
   end
 end
 
