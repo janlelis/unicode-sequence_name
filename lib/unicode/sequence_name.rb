@@ -5,13 +5,23 @@ module Unicode
     def self.sequence_name(string)
       codepoints = get_codepoint_values(string)
       require_relative "sequence_name/index" unless defined? ::Unicode::SequenceName::INDEX
-      if res = INDEX[:SEQUENCES][codepoints]
+      if res = INDEX[:SEQUENCES][codepoints] || INDEX[:SEQUENCES_NOT_QUALIFIED][codepoints]
         res
       else
         nil
       end
     end
     class << self; alias of sequence_name; end
+
+    def self.fully_qualified(string)
+      codepoints = get_codepoint_values(string)
+      require_relative "sequence_name/index" unless defined? ::Unicode::SequenceName::INDEX
+      if res = INDEX[:SEQUENCES][codepoints]
+        res
+      else
+        nil
+      end
+    end
 
     def self.get_codepoint_values(string)
       if string.valid_encoding?

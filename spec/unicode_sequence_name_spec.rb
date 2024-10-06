@@ -3,7 +3,7 @@ require "minitest/autorun"
 
 describe Unicode::SequenceName do
   describe ".sequence_name (alias .of)" do
-    it "will return name for that sequence name" do
+    it "will return name for that sequence" do
       assert_equal "DOUBLE EXCLAMATION MARK (text style)", Unicode::SequenceName.of("‼︎")
       assert_equal "CJK COMPATIBILITY IDEOGRAPH-2F81F", Unicode::SequenceName.of("㓟︀")
       assert_equal "MYANMAR LETTER NGA (dotted form)", Unicode::SequenceName.of("င︀")
@@ -19,6 +19,13 @@ describe Unicode::SequenceName do
       assert_equal "LEFT SINGLE QUOTATION MARK (right-justified fullwidth form)", Unicode::SequenceName.of("‘︁") # Unicode 16.0
     end
 
+    it "will return name for that sequence (not fully qualified: VS16 missing)" do
+      assert_equal "COUPLE WITH HEART: WOMAN, WOMAN, DARK SKIN TONE, MEDIUM SKIN TONE", Unicode::SequenceName.of("👩🏿‍❤‍👩🏽")
+      assert_equal "MAN JUDGE", Unicode::SequenceName.of("👨‍⚖")
+      assert_equal "WOMAN BOUNCING BALL", Unicode::SequenceName.of("⛹‍♀️") # First VS16 missing
+      assert_equal "WOMAN BOUNCING BALL", Unicode::SequenceName.of("⛹️‍♀") # Second VS16 missing
+    end
+
     it "will return nil for characters without name" do
       assert_nil Unicode::SequenceName.of("\u{10c50}")
       assert_nil Unicode::SequenceName.of("bla")
@@ -26,6 +33,15 @@ describe Unicode::SequenceName do
 
     it "will return nil for single codepoints" do
       assert_nil Unicode::SequenceName.of("⏳")
+    end
+  end
+
+  describe ".fully_qualified" do
+    it "will *not* return name for that sequence (not fully qualified: VS16 missing)" do
+      assert_nil Unicode::SequenceName.fully_qualified("👩🏿‍❤‍👩🏽")
+      assert_nil Unicode::SequenceName.fully_qualified("👨‍⚖")
+      assert_nil Unicode::SequenceName.fully_qualified("⛹‍♀️") # First VS16 missing
+      assert_nil Unicode::SequenceName.fully_qualified("⛹️‍♀") # Second VS16 missing
     end
   end
 end
