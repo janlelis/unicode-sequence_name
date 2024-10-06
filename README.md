@@ -10,7 +10,7 @@ IVD version: **2022-09-13** (September 2022)
 
 Supported Rubies: **3.3**, **3.2**, **3.1**, **3.0**
 
-Old Rubies which might still work: **2.7**, **2.6**, **2.5**, **2.4**, **2.3**, **2.X**
+Old Rubies which might still work: **2.X**
 
 ## Usage
 
@@ -32,10 +32,10 @@ Unicode::SequenceName.of "🙂‍↔️" # => "HEAD SHAKING HORIZONTALLY"
 Unicode::SequenceName.of "‘︁" # => "LEFT SINGLE QUOTATION MARK (right-justified fullwidth form)"
 ```
 
-Names for singular codepoints are not included, you can use [unicode-name](https://github.com/janlelis/unicode-name) for that purpose. This is how you could use both libraries together to get the most relevant name of a character:
+Names for singular codepoints are not included, but you can use [unicode-name](https://github.com/janlelis/unicode-name) for that purpose. This is how you could use both libraries together to get the most relevant name of a character:
 
 ```ruby
-name = Unicode::Name.sequence_name(char) || Unicode::Name.readable(char)
+name = Unicode::SequenceName.of(char) || Unicode::Name.readable(char)
 ```
 
 ## Also See

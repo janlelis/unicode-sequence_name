@@ -1,6 +1,6 @@
 ## CHANGELOG
 
-### 1.15.0 (unreleased)
+### 1.15.0
 
 - Include Emoji sequences which are not fully qualified (VS16 is missing) in index
 - You can use the newly introduced method `Unicode::SequenceName.fully_qualified` 
