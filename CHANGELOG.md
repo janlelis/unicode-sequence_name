@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.15.2
+
+- Fix regression introduced in 1.15.1 that non-ASCII sequence names would not work
+
 ### 1.15.1
 
 - Optimize index size by substituting common words
