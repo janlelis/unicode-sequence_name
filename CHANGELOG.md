@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.15.1
+
+- Optimize index size by substituting common words
+
 ### 1.15.0
 
 - Include Emoji sequences which are not fully qualified (VS16 is missing) in index

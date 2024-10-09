@@ -6,7 +6,7 @@ module Unicode
       codepoints = get_codepoint_values(string)
       require_relative "sequence_name/index" unless defined? ::Unicode::SequenceName::INDEX
       if res = INDEX[:SEQUENCES][codepoints] || INDEX[:SEQUENCES_NOT_QUALIFIED][codepoints]
-        res
+        insert_words(res)
       else
         nil
       end
@@ -17,7 +17,7 @@ module Unicode
       codepoints = get_codepoint_values(string)
       require_relative "sequence_name/index" unless defined? ::Unicode::SequenceName::INDEX
       if res = INDEX[:SEQUENCES][codepoints]
-        res
+        insert_words(res)
       else
         nil
       end
@@ -36,8 +36,20 @@ module Unicode
       raise(ArgumentError, "Unicode::SequenceName.of must be given a valid string")
     end
 
+    def self.insert_words(raw_name)
+      raw_name.chars.map{ |char|
+        codepoint = char.ord
+        if codepoint < INDEX[:REPLACE_BASE]
+          char
+        else
+          "#{INDEX[:COMMON_WORDS][codepoint - INDEX[:REPLACE_BASE]]} "
+        end
+      }.join.chomp
+    end
+
     class << self
       private :get_codepoint_values
+      private :insert_words
     end
   end
 end
