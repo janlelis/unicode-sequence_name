@@ -1,6 +1,6 @@
 ## CHANGELOG
 
-### 1.15.3 (unreleased)
+### 1.15.3
 
 - Do not duplicate sequence names for non-fqe Emoji sequences in index,
   instead map to fully-qualified first
