@@ -5,7 +5,10 @@ module Unicode
     def self.sequence_name(string)
       codepoints = get_codepoint_values(string)
       require_relative "sequence_name/index" unless defined? ::Unicode::SequenceName::INDEX
-      if res = INDEX[:SEQUENCES][codepoints] || INDEX[:SEQUENCES_NOT_QUALIFIED][codepoints]
+      if res = INDEX[:SEQUENCES][codepoints]
+        insert_words(res)
+      elsif fqe = INDEX[:EMOJI_NOT_QUALIFIED][string]
+        res = INDEX[:SEQUENCES][get_codepoint_values(fqe)]
         insert_words(res)
       else
         nil

@@ -1,5 +1,10 @@
 ## CHANGELOG
 
+### 1.15.3 (unreleased)
+
+- Do not duplicate sequence names for non-fqe Emoji sequences in index,
+  instead map to fully-qualified first
+
 ### 1.15.2
 
 - Fix regression introduced in 1.15.1 that non-ASCII sequence names would not work
