@@ -42,5 +42,5 @@ name = Unicode::SequenceName.of(char) || Unicode::Name.readable(char)
 
 ## MIT License
 
-- Copyright (C) 2017-2024 Jan Lelis <https://janlelis.com>. Released under the MIT license.
+- Copyright (C) 2017-2025 Jan Lelis <https://janlelis.com>. Released under the MIT license.
 - Unicode data: https://www.unicode.org/copyright.html#Exhibit1
