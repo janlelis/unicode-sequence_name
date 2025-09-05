@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### 1.16.3 (unreleased)
+
+- Unicode 17.0
+
 ### 1.15.3
 
 - Do not duplicate sequence names for non-fqe Emoji sequences in index,
