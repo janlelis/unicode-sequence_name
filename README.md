@@ -6,11 +6,7 @@ Unicode version: **16.0.0** (September 2024)
 
 Emoji version: **16.0** (September 2024)
 
-IVD version: **2022-09-13** (September 2022)
-
-Supported Rubies: **3.3**, **3.2**, **3.1**, **3.0**
-
-Old Rubies which might still work: **2.X**
+IVD version: **2025-07-14** (July 2025)
 
 ## Usage
 
