@@ -4,7 +4,7 @@ Returns the name of a Unicode codepoint sequence (= more than one codepoint invo
 
 Unicode version: **17.0.0** (September 2025)
 
-Emoji version: **16.0** (September 2024)
+Emoji version: **17.0** (September 2025)
 
 IVD version: **2025-07-14** (July 2025)
 
